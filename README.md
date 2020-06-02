@@ -18,6 +18,8 @@ Append `\!` to fits output file arguments if you want to overwrite it. This is t
 
 - at_calc: do an arithmetic calculation on one or two fits file and save the result to another fits file. For batch processing, use a bash script like `subtract.sh` and `divide.sh` in the repo.
 
+- at_median_filter: median filter a fits and write output to another fits. Filter size can be specified. The filter size argument is number of pixels from center to edge (i.e. radius), so for 3x3 filter, filter size = 1 should be given.
+
 - at_superpixel: converts a FITS file to another by combining pixels (3x3 for xtrans), making super pixels. For batch processing, use a bash script like `superpixel.sh` in the repo.
 
 # Status

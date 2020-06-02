@@ -1,4 +1,6 @@
 
+[![Build Status](https://travis-ci.com/metebalci/astrotools.svg?branch=master)](https://travis-ci.com/metebalci/astrotools)
+
 # Description
 
 These are a few custom programs that I use for astrophotography. 

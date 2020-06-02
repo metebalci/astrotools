@@ -2,7 +2,7 @@ dist: xenial
 language: c
 compiler: gcc
 install:
-  - apt install libraw-dev
-  - apt install libccfits-dev
+  - sudo apt-get install libraw-dev
+  - sudo apt-get install libccfits-dev
 script:
   - make
